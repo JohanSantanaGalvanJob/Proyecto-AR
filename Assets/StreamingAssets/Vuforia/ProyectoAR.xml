@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="Munchitos_Ajillo" size="0.200000 0.200000" />
+    <ImageTarget name="Munchitos_Normal" size="0.200000 0.200000" />
+    <ImageTarget name="Mojo2" size="0.200000 0.200000" />
+    <ImageTarget name="Tirma_Normal" size="0.200000 0.130000" />
+    <ImageTarget name="Tirma_blanca" size="0.200000 0.130000" />
+    <ImageTarget name="Mojo_1" size="0.200000 0.200000" />
+    <ImageTarget name="gumball2" size="0.200000 0.112500" />
+    <ImageTarget name="suspiros" size="0.200000 0.200000" />
+    <ImageTarget name="gumball" size="0.200000 0.150000" />
+  </Tracking>
+</QCARConfig>

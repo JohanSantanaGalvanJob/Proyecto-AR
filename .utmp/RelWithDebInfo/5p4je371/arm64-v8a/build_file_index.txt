@@ -1,0 +1,2 @@
+C:\Users\Alumno tarde\Desktop\Proyectos\ProgramacionMotores\2026Gumball\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\Alumno tarde\Desktop\Proyectos\ProgramacionMotores\2026Gumball\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
