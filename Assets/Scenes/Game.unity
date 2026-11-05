@@ -752,7 +752,7 @@ GameObject:
   - component: {fileID: 695554764}
   - component: {fileID: 695554763}
   - component: {fileID: 695554762}
-  - component: {fileID: 695554761}
+  - component: {fileID: 695554765}
   m_Layer: 4
   m_Name: ImageTargetTirmaBlanco
   m_TagString: Untagged
@@ -760,25 +760,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &695554761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 695554760}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetPreview
-  mObserverBehaviour: {fileID: 695554763}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Tirma_blanca
-  mDatasetName: Vuforia/ProyectoAR.xml
-  mCastedBehaviour: {fileID: 695554763}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &695554762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -849,7 +830,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 695554761}
+  mPreview: {fileID: 695554765}
 --- !u!4 &695554764
 Transform:
   m_ObjectHideFlags: 0
@@ -866,6 +847,25 @@ Transform:
   - {fileID: 1915613824}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -68.21, y: -356.073, z: 358.707}
+--- !u!114 &695554765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695554760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetPreview
+  mObserverBehaviour: {fileID: 695554763}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Tirma_blanca
+  mDatasetName: Vuforia/ProyectoAR.xml
+  mCastedBehaviour: {fileID: 695554763}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,7 +926,7 @@ GameObject:
   - component: {fileID: 1308816715}
   - component: {fileID: 1308816714}
   - component: {fileID: 1308816713}
-  - component: {fileID: 1308816712}
+  - component: {fileID: 1308816716}
   m_Layer: 4
   m_Name: ImageTargetMunchitosAjillo
   m_TagString: Untagged
@@ -934,25 +934,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1308816712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1308816711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetPreview
-  mObserverBehaviour: {fileID: 1308816714}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Munchitos_Ajillo
-  mDatasetName: Vuforia/ProyectoAR.xml
-  mCastedBehaviour: {fileID: 1308816714}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1308816713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1023,7 +1004,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1308816712}
+  mPreview: {fileID: 1308816716}
 --- !u!4 &1308816715
 Transform:
   m_ObjectHideFlags: 0
@@ -1040,6 +1021,25 @@ Transform:
   - {fileID: 2049160818}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -68.21, y: -356.073, z: 358.707}
+--- !u!114 &1308816716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308816711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetPreview
+  mObserverBehaviour: {fileID: 1308816714}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Munchitos_Ajillo
+  mDatasetName: Vuforia/ProyectoAR.xml
+  mCastedBehaviour: {fileID: 1308816714}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1342334684
 GameObject:
   m_ObjectHideFlags: 0
@@ -1054,6 +1054,7 @@ GameObject:
   - component: {fileID: 1342334687}
   - component: {fileID: 1342334686}
   - component: {fileID: 1342334685}
+  - component: {fileID: 1342334691}
   m_Layer: 4
   m_Name: ARCamera
   m_TagString: MainCamera
@@ -1205,6 +1206,103 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1342334691
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342334684}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 20158b6396336c04c8eb3d21d7615381, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.47
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1426315063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1423,7 +1521,7 @@ GameObject:
   - component: {fileID: 1612389361}
   - component: {fileID: 1612389360}
   - component: {fileID: 1612389359}
-  - component: {fileID: 1612389358}
+  - component: {fileID: 1612389362}
   m_Layer: 4
   m_Name: ImageTargetSuspiros
   m_TagString: Untagged
@@ -1431,25 +1529,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1612389358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1612389357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetPreview
-  mObserverBehaviour: {fileID: 1612389360}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: suspiros
-  mDatasetName: Vuforia/ProyectoAR.xml
-  mCastedBehaviour: {fileID: 1612389360}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1612389359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1520,7 +1599,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1612389358}
+  mPreview: {fileID: 1612389362}
 --- !u!4 &1612389361
 Transform:
   m_ObjectHideFlags: 0
@@ -1537,6 +1616,25 @@ Transform:
   - {fileID: 1872242157}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -68.21, y: -356.073, z: 358.707}
+--- !u!114 &1612389362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612389357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetPreview
+  mObserverBehaviour: {fileID: 1612389360}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: suspiros
+  mDatasetName: Vuforia/ProyectoAR.xml
+  mCastedBehaviour: {fileID: 1612389360}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1640143451
 PrefabInstance:
   m_ObjectHideFlags: 0
