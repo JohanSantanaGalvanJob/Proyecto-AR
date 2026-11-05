@@ -2199,7 +2199,7 @@ GameObject:
   - component: {fileID: 1551254015}
   - component: {fileID: 1551254018}
   - component: {fileID: 1551254019}
-  m_Layer: 4
+  m_Layer: 0
   m_Name: ImageTargetTirma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2724,11 +2724,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 50d2e87119b677b478df3eef39388802, type: 3}
       propertyPath: m_Layer
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 50d2e87119b677b478df3eef39388802, type: 3}
       propertyPath: m_Layer
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
