@@ -15,11 +15,9 @@ public class VideoPlay : MonoBehaviour {
         }
 
         // Detectar clic en Unity
-#if UNITY_EDITOR
         if (Input.GetMouseButtonDown(0)) {
             DetectarToque(Input.mousePosition);
         }
-#endif
     }
 
     void DetectarToque(Vector2 posicion) {
